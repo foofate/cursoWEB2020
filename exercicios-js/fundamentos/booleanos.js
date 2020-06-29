@@ -33,22 +33,3 @@ let nome = '';
 console.log(nome || 'Desconhecido');
 nome = 'Lucas';
 console.log(nome || 'Desconhecido');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
