@@ -10,3 +10,18 @@
  * (Neste exemplo deve-se abstrair as condições matemáticas
  * de existência de um triângulo).
  */
+
+ function triangle(a, b, c) {
+     if (a === b && b === c) {
+        return 'Equilátero'
+     } else if (a === b && a !== c || b === c && b !== a || c === a && c !== b) {
+        return 'Isósceles'
+     } else if (a !== b && b !== c) {
+        return 'Escaleno'
+     }
+ }
+
+ const ladoA = 11
+ const ladoB = 11
+ const ladoC = 11
+ console.log(triangle(ladoA, ladoB, ladoC))
