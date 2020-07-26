@@ -3,7 +3,7 @@
 */
 
 function divisivelPor3(num) {
-    if (num % 3 == 0) {
+    if (num % 3 === 0) {
         return true
     } else {
         return false
