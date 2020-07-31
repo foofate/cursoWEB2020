@@ -9,7 +9,7 @@ const menorSalario = (funcionario, funcionarioAtual) => {
 
 axios.get(url).then(response => {
     const funcionarios = response.data
-
+    
     //mulher chinesa com menor salário
     const resultado = funcionarios.filter(moraNaChina).filter(sexoFeminino).reduce(menorSalario)
     console.log(resultado)
