@@ -9,5 +9,5 @@ function funcionarOuNao(valor, chanceErro) {
 }
 
 funcionarOuNao('Testando...', 0.9)
-    .then(v => console.log(v))
+    .then(v => console.log(v))g
     .catch(err => console.log(err))
