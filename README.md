@@ -1,9 +1,9 @@
-# :man_technologist: Curso:
+## :man_technologist: Curso:
 
 Curso Web Moderno Completo com JavaScript 2020 (Udemy/Cod3r)
 
 
-## :pushpin: Tópicos abordados:
+### :pushpin: Tópicos abordados:
 
 * HTML5
 * CSS3
